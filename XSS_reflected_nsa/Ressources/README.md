@@ -31,3 +31,11 @@ On obtient le flag:
 ```
 928d819fc19405ae09921a2b71227bd9aba106f9d2d37ac412e9e5a750f1506d
 ```
+
+# Why it's dangerous
+
+L'attaquant peut éxécuter le code qu'il souhaite sur le serveur de production. Avoir accès à des fichiers confidentiels. Faire tourner un logiciel malveillant etc ...
+
+# How to fix it
+
+Utiliser une balise HTML `img` qui prend en paramètre l'URL de l'image en question. Avoir un CDN, stocker les images dans le front ou vérifier l'input dans le backend.
