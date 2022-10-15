@@ -1,6 +1,8 @@
+# Redirection
+
 On inspecte l'élément sur les logo de redirection (Facebook, Twitter, Instagram)
 
-Sur Facebook par exemple, on va changer modifier la propriété href:
+Sur Facebook par exemple, on va modifier la propriété `href`:
 
 `href="index.php?page=redirect&site=facebook"`
 
