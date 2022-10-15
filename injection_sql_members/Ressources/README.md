@@ -29,7 +29,7 @@ Structure des tables de la DB:
 
 Nous allons donc récupérer toutes les informations de notre compte **Flag** :
 
-Via la commande SQL : `1 UNION SELECT first_name,last_name FROM list_images`
+Via la commande SQL : `1 UNION SELECT first_name,last_name FROM users`
 On fera cela pour toutes les colonnes de la tables **USERS**.
 
 ```
